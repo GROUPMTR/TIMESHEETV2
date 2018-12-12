@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TEXT_KULLANCI_UYARI_MAILI.Text" xml:space="preserve">
+    <value>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+    &lt;title&gt;
+      Classical
+    &lt;/title&gt;
+	  &lt;/head&gt;
+  &lt;body style="margin: 0; padding: 0; background: #bccdd9;"&gt;
+  	&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="100%"&gt;
+		  &lt;tr&gt;
+		  	&lt;td height="518" align="center" style="margin: 0; padding: 0;padding: 35px 0"&gt;
+			    &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif;" class="header"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291" height="115" align="center"&gt;
+						&lt;h1 align="left" style="color: #fff; font: normal 33px Georgia, serif; margin: 20; padding: 0; line-height: 33px;"&gt; TimeSheet Uyarısı &lt;/h1&gt;
+						&lt;p style="color: #dfa575; font: normal 11px Georgia, serif; margin: 0; padding: 0; line-height: 11px;"&gt;&amp;nbsp;&lt;/p&gt;
+			        &lt;/td&gt;
+			      &lt;/tr&gt;
+				  &lt;tr&gt;
+					  &lt;td style="font-size: 1px; height: 5px; line-height: 1px;" height="5"&gt;&amp;nbsp;&lt;/td&gt;
+				  &lt;/tr&gt;	
+				&lt;/table&gt;&lt;!-- header--&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; background: #fff;" bgcolor="#ffffff"&gt;
+			      &lt;tr&gt;
+			        &lt;td width="14" height="290" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+					&lt;td width="620" valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;
+						&lt;table width="620" height="229" border="0" cellpadding="0" cellspacing="0" class="content"  style="color: #717171; font: normal 11px Georgia, serif; margin: 0; padding: 0;"&gt;
+						&lt;tr&gt;
+							&lt;td style="padding: 25px 0 5px; border-bottom: 2px solid #d2b49b;font-family: Georgia, serif; "  valign="top" align="center"&gt;
+								&lt;h3 style="color:#767676; font-weight: normal; margin: 0; padding: 0; font-style: italic; line-height: 13px; font-size: 13px;"&gt;&amp;nbsp;&lt;/h3&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td style="padding: 25px 0 0;" align="left"&gt;			
+								&lt;h2 style="color:#8598a3; font-weight: bold; margin: 20; padding: 0; font-style: normal; line-height: 30px; font-size: 19px;font-family: Georgia, serif;"&gt;Sayın : ADI_SOYADI &lt;/h2&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+						  &lt;td style="padding: 15px 0 15px; border-bottom: 1px solid #d2b49b;"  valign="top"&gt;&lt;span style="color:#8598a3; font-weight: bold; margin: 20; padding: 0; font-style: normal; line-height: 30px; font-size: 19px;font-family: Georgia, serif;"&gt;Tarih: TARIHI ' ait timesheet verilerini giriniz. &lt;/span&gt;&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;/table&gt;	
+					&lt;/td&gt;
+					
+					
+					
+					&lt;td width="16" bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			      &lt;/tr&gt;
+				&lt;/table&gt;&lt;!-- body --&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; line-height: 10px;" bgcolor="#698291" class="footer"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291"  align="center" style="padding: 15px 0 10px; font-size: 11px; color:#fff; margin: 0; line-height: 1.2;font-family: Georgia, serif;" valign="top"&gt;
+						&lt;p style="padding: 0; font-size: 11px; color:#fff; margin: 0; font-family: Georgia, serif;"&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/td&gt;
+			      &lt;/tr&gt; 
+				&lt;/table&gt;&lt;!-- footer--&gt;
+		  	&lt;/td&gt;
+		&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="TEXT_DIRECTOR_UYARI_MAILI.Text" xml:space="preserve">
+    <value>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+    &lt;title&gt;
+      Classical
+    &lt;/title&gt;
+	  &lt;style type="text/css"&gt;
+&lt;!--
+.style1 {
+	font-size: 16px;
+	color: #698291;
+}
+--&gt;
+      &lt;/style&gt;
+&lt;/head&gt;
+  &lt;body style="margin: 0; padding: 0; background: #bccdd9;"&gt;
+  	&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="100%"&gt;
+		  &lt;tr&gt;
+		  	&lt;td align="center" style="margin: 0; padding: 0;padding: 35px 0"&gt;
+			    &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif;" class="header"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291" height="115" align="center"&gt;
+						&lt;h1 align="left" style="color: #fff; font: normal 33px Georgia, serif; margin: 20; padding: 0; line-height: 33px;"&gt;TimeSheet'i Onaylanmamışlar&lt;/h1&gt;
+						&lt;p style="color: #dfa575; font: normal 11px Georgia, serif; margin: 0; padding: 0; line-height: 11px;"&gt;&amp;nbsp;&lt;/p&gt;
+			        &lt;/td&gt;
+			      &lt;/tr&gt;
+				  &lt;tr&gt;
+					  &lt;td style="font-size: 1px; height: 5px; line-height: 1px;" height="5"&gt;&amp;nbsp;&lt;/td&gt;
+				  &lt;/tr&gt;	
+				&lt;/table&gt;&lt;!-- header--&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; background: #fff;" bgcolor="#ffffff"&gt;
+			      &lt;tr&gt;
+			        &lt;td height="35" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td width="14" height="35" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+					&lt;td width="620" valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif;"&gt; &lt;div class="style1"&gt;DONEM&lt;/div&gt;&lt;/td&gt;
+					
+					
+					
+					&lt;td width="16" bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			      &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td style="font-size: 0px;" bgcolor="#ffffff"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;
+					&lt;!-- footer--&gt;
+					
+					&lt;table width="602" border="0" align="center" cellpadding="0" cellspacing="0"&gt;
+                      &lt;tr&gt;
+					  LINE_ADD 
+                      &lt;/tr&gt;
+                    &lt;/table&gt;
+					&lt;!-- footer--&gt;
+					&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td style="font-size: 0px;" bgcolor="#ffffff"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td height="37" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+				&lt;/table&gt;
+				&lt;!-- body --&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; line-height: 10px;" bgcolor="#698291" class="footer"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291"  align="center" style="padding: 15px 0 10px; font-size: 11px; color:#fff; margin: 0; line-height: 1.2;font-family: Georgia, serif;" valign="top"&gt;
+						&lt;p style="padding: 0; font-size: 11px; color:#fff; margin: 0; font-family: Georgia, serif;"&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/td&gt;
+			      &lt;/tr&gt; 
+				&lt;/table&gt;&lt;!-- footer--&gt;
+		  	&lt;/td&gt;
+		&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="TEXT_DIRECTOR_ONAY_MAILI.Text" xml:space="preserve">
+    <value>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+    &lt;title&gt;
+      Classical
+    &lt;/title&gt;
+	 
+&lt;/head&gt;
+  &lt;body style="margin: 0; padding: 0; background: #bccdd9;"&gt;
+  	&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="100%"&gt;
+		  &lt;tr&gt;
+		  	&lt;td align="center" style="margin: 0; padding: 0;padding: 35px 0"&gt;
+			    &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif;" class="header"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291" height="115" align="center"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+                          &lt;tr&gt;
+                            &lt;td width="70%"&gt;&lt;span style="color: #fff; font: normal 33px Georgia, serif; margin: 20; padding: 0; line-height: 35px;"&gt;&amp;nbsp;TimeSheet&lt;/span&gt;&lt;/td&gt;
+                            &lt;td width="16%"&gt;&lt;span style="color: #fff; font: normal 19px Georgia, serif; margin: 20; padding: 0; line-height: 35px;"&gt;Dönemi&lt;/span&gt;&lt;/td&gt;
+                            &lt;td width="14%"&gt;&lt;span style="color: #fff; font: normal 13px Georgia, serif; padding: 0; line-height: 15px;"&gt;DONEM&lt;/span&gt;&lt;/td&gt;
+                      &lt;/tr&gt;
+                        &lt;/table&gt;
+						
+			      &lt;/tr&gt;
+				&lt;/table&gt;
+			    &lt;!-- header--&gt;
+				&lt;table width="650" height="177" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="font-family: Georgia, serif; background: #fff;"&gt;
+			      &lt;tr&gt;
+			        &lt;td height="18" bgcolor="#ffffff" style="font-size: 0px; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td width="14" height="61" bgcolor="#ffffff" style="font-size: 0px; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+					&lt;td width="620" valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background-color: #CCCCCC;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+    &lt;tr&gt; 
+						&lt;td width="36%" height="59"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Kullanıcı  Adı&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Pzt&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Sal&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Çar&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Per&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Cum&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Toplam&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+						&lt;td width="20%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;Bilgi&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; 
+                      &lt;/tr&gt;
+                    &lt;/table&gt;
+					&lt;hr&gt;					&lt;/td&gt; 
+					&lt;td width="16" bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+			      &lt;/tr&gt; 
+			      &lt;tr&gt;
+			        &lt;td height="25" bgcolor="#ffffff" style="font-size: 0px; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background-color: #CCCCCC;"&gt;&lt;table width="100%" border="0" cellspacing="0" cellpadding="0"&gt;
+                     
+					 TABLE_ROW_INSERT
+					  
+                    &lt;/table&gt;			
+						&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td height="18" bgcolor="#ffffff" style="font-size: 0px; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #CCCCCC;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td height="18" bgcolor="#ffffff" style="font-size: 0px; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #F0F0F0;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			      &lt;tr&gt;
+			        &lt;td height="37" bgcolor="#ffffff" style="font-size: 0px; background-color: #3D5B6F;"&gt;&amp;nbsp;&lt;/td&gt;
+			        &lt;td valign="center" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff; background-color: rgb(61, 91, 111);"&gt;&lt;div align="center" class="style3"&gt;
+			          
+			          &lt;p align="center"&gt;ONAY_LINKI&lt;/p&gt;
+			        &lt;/div&gt;&lt;/td&gt;
+			        &lt;td bgcolor="#ffffff" style="font-size: 0px; font-family: Georgia, serif; background: #fff; background-color: #3D5B6F;"&gt;&amp;nbsp;&lt;/td&gt;
+		          &lt;/tr&gt;
+			  &lt;/table&gt;
+				&lt;!-- body --&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; line-height: 10px;" bgcolor="#698291" class="footer"&gt;
+			      &lt;tr&gt;
+			        &lt;td height="66"  align="center" valign="top" bgcolor="#698291" style="padding: 15px 0 10px; font-size: 11px; color:#fff; margin: 0; line-height: 1.2;font-family: Georgia, serif;"&gt;
+						&lt;p align="left" style="padding: 0; font-size: 11px; color:#fff; margin: 20; font-family: Georgia, serif;"&gt;Bu mail'i bilgisayarınızdan onaylayınız.&lt;/p&gt;
+					&lt;/td&gt;
+			      &lt;/tr&gt; 
+				&lt;/table&gt;&lt;!-- footer--&gt;
+		  	&lt;/td&gt;
+		&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="TEXT_DIRECTOR_ONAY_MAILI_LINE.Text" xml:space="preserve">
+    <value>&lt;tr&gt;
+&lt;td width="36%" height="30"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;KULLANICI_ADI&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;PAZARTESI&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;SALI&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;CARSAMBA&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;PERSEMBE&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;CUMA&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="6%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;TOPLAM&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;td width="20%"&gt;&lt;div align="center"&gt;&lt;span style="font-weight: bold; font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(59, 97, 110);"&gt;BILGI&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+&lt;/tr&gt;</value>
+  </data>
+  <data name="TEXT_TIME_SHEET_KULLANMAYANLAR.Text" xml:space="preserve">
+    <value>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+    &lt;title&gt;
+      Classical
+    &lt;/title&gt;
+	  &lt;/head&gt;
+  &lt;body style="margin: 0; padding: 0; background: #bccdd9;"&gt;
+  	&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="100%"&gt;
+		  &lt;tr&gt;
+		  	&lt;td height="518" align="center" style="margin: 0; padding: 0;padding: 35px 0"&gt;
+			    &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif;" class="header"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291" height="115" align="center"&gt;
+						&lt;h1 align="left" style="color: #fff; font: normal 33px Georgia, serif; margin: 20; padding: 0; line-height: 33px;"&gt; TimeSheet Verisi Girmeyenler &lt;/h1&gt;
+						&lt;p style="color: #dfa575; font: normal 11px Georgia, serif; margin: 0; padding: 0; line-height: 11px;"&gt;&amp;nbsp;&lt;/p&gt;
+			        &lt;/td&gt;
+			      &lt;/tr&gt;
+				  &lt;tr&gt;
+					  &lt;td style="font-size: 1px; height: 5px; line-height: 1px;" height="5"&gt;&amp;nbsp;&lt;/td&gt;
+				  &lt;/tr&gt;	
+				&lt;/table&gt;&lt;!-- header--&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; background: #fff;" bgcolor="#ffffff"&gt;
+			      &lt;tr&gt;
+			        &lt;td width="14" height="290" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+					&lt;td width="620" valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;
+						&lt;table width="620" height="120" border="0" cellpadding="0" cellspacing="0" class="content"  style="color: #717171; font: normal 11px Georgia, serif; margin: 0; padding: 0;"&gt;
+						&lt;tr&gt;
+							&lt;td height="45" align="center"  valign="top" style="padding: 25px 0 5px; border-bottom: 2px solid #d2b49b;font-family: Georgia, serif; "&gt;
+								&lt;h3 style="color:#767676; font-weight: normal; margin: 0; padding: 0; font-style: italic; line-height: 13px; font-size: 13px;"&gt;&amp;nbsp;&lt;/h3&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td height="75" align="left" style="padding: 25px 0 0;"&gt;			
+								&lt;h2 style="color:#8598a3; font-weight: bold; margin: 20; padding: 0; font-style: normal; line-height: 30px; font-size: 19px;font-family: Georgia, serif;"&gt;ADI_SOYADI&lt;/h2&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;/table&gt;	
+					&lt;/td&gt;
+					
+					
+					
+					&lt;td width="16" bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			      &lt;/tr&gt;
+				&lt;/table&gt;&lt;!-- body --&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; line-height: 10px;" bgcolor="#698291" class="footer"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291"  align="center" style="padding: 15px 0 10px; font-size: 11px; color:#fff; margin: 0; line-height: 1.2;font-family: Georgia, serif;" valign="top"&gt;
+						&lt;p style="padding: 0; font-size: 11px; color:#fff; margin: 0; font-family: Georgia, serif;"&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/td&gt;
+			      &lt;/tr&gt; 
+				&lt;/table&gt;&lt;!-- footer--&gt;
+		  	&lt;/td&gt;
+		&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="timer_week.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="TEXT_PDKS_UYARI_MAILI.Text" xml:space="preserve">
+    <value>&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta content="text/html; charset=utf-8" http-equiv="Content-Type"&gt;
+    &lt;title&gt;
+      Classical
+    &lt;/title&gt;
+	  &lt;/head&gt;
+  &lt;body style="margin: 0; padding: 0; background: #bccdd9;"&gt;
+  	&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="100%"&gt;
+		  &lt;tr&gt;
+		  	&lt;td height="518" align="center" style="margin: 0; padding: 0;padding: 35px 0"&gt;
+			    &lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif;" class="header"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291" height="115" align="center"&gt;
+						&lt;h1 align="left" style="color: #fff; font: normal 33px Georgia, serif; margin: 20; padding: 0; line-height: 33px;"&gt; Pdks Uyarısı &lt;/h1&gt;
+						&lt;p style="color: #dfa575; font: normal 11px Georgia, serif; margin: 0; padding: 0; line-height: 11px;"&gt;&amp;nbsp;&lt;/p&gt;
+			        &lt;/td&gt;
+			      &lt;/tr&gt;
+				  &lt;tr&gt;
+					  &lt;td style="font-size: 1px; height: 5px; line-height: 1px;" height="5"&gt;&amp;nbsp;&lt;/td&gt;
+				  &lt;/tr&gt;	
+				&lt;/table&gt;&lt;!-- header--&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; background: #fff;" bgcolor="#ffffff"&gt;
+			      &lt;tr&gt;
+			        &lt;td width="14" height="290" bgcolor="#ffffff" style="font-size: 0px;"&gt;&amp;nbsp;&lt;/td&gt;
+					&lt;td width="620" valign="top" align="left" bgcolor="#ffffff"style="font-family: Georgia, serif; background: #fff;"&gt;
+						&lt;table width="620" height="229" border="0" cellpadding="0" cellspacing="0" class="content"  style="color: #717171; font: normal 11px Georgia, serif; margin: 0; padding: 0;"&gt;
+						&lt;tr&gt;
+							&lt;td style="padding: 25px 0 5px; border-bottom: 2px solid #d2b49b;font-family: Georgia, serif; "  valign="top" align="center"&gt;
+								&lt;h3 style="color:#767676; font-weight: normal; margin: 0; padding: 0; font-style: italic; line-height: 13px; font-size: 13px;"&gt;&amp;nbsp;&lt;/h3&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td style="padding: 25px 0 0;" align="left"&gt;			
+								&lt;h2 style="color:#8598a3; font-weight: bold; margin: 20; padding: 0; font-style: normal; line-height: 30px; font-size: 19px;font-family: Georgia, serif;"&gt;Sayın : $ADI_SOYADI$ &lt;/h2&gt;							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+						  &lt;td style="padding: 15px 0 15px; border-bottom: 1px solid #d2b49b;"  valign="top"&gt;&lt;span style="color:#8598a3; font-weight: bold; margin: 20; padding: 0; font-style: normal; line-height: 30px; font-size: 19px;font-family: Georgia, serif;"&gt;Tarih: $TARIH$ ' ait ofise giriş kaydınız bulunmamaktadır. Lütfen bodro departmanı ile iletişime geçiniz. &lt;/span&gt;&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;/table&gt;	
+					&lt;/td&gt;
+					
+					
+					
+					&lt;td width="16" bgcolor="#ffffff" style="font-size: 0px;font-family: Georgia, serif; background: #fff;"&gt;&amp;nbsp;&lt;/td&gt;
+			      &lt;/tr&gt;
+				&lt;/table&gt;&lt;!-- body --&gt;
+				&lt;table cellpadding="0" cellspacing="0" border="0" align="center" width="650" style="font-family: Georgia, serif; line-height: 10px;" bgcolor="#698291" class="footer"&gt;
+			      &lt;tr&gt;
+			        &lt;td bgcolor="#698291"  align="center" style="padding: 15px 0 10px; font-size: 11px; color:#fff; margin: 0; line-height: 1.2;font-family: Georgia, serif;" valign="top"&gt;
+						&lt;p style="padding: 0; font-size: 11px; color:#fff; margin: 0; font-family: Georgia, serif;"&gt;&amp;nbsp;&lt;/p&gt;
+					&lt;/td&gt;
+			      &lt;/tr&gt; 
+				&lt;/table&gt;&lt;!-- footer--&gt;
+		  	&lt;/td&gt;
+		&lt;/tr&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

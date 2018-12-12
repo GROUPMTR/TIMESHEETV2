@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SET_INVOICE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SET_INVOICEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SET_INVOICEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_NUMBER">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FIRMA_KODU" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TASLAK_FATURA_NO" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_NUMBERResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_INVOICE_NUMBERResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_LIST">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FIRMA_KODU" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BAS_TARIHI" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="BIT_TARIHI" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_LISTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_INVOICE_LISTResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_DETAIL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FIRMA_KODU" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UUID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_DETAILResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_INVOICE_DETAILResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_MATCH_LIST">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FIRMA_KODU" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BAS_TARIHI" type="s:dateTime" />
+            <s:element minOccurs="1" maxOccurs="1" name="BIT_TARIHI" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GET_INVOICE_MATCH_LISTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GET_INVOICE_MATCH_LISTResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fromAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="toAddress" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="subject" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileList" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendMailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SendMailResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="docbinaryarray" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="docname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SaveDocumentResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocumentLen">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocumentLenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDocumentLenResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocument">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DocumentName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocumentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocumentResult" type="s:base64Binary" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SET_INVOICESoapIn">
+    <wsdl:part name="parameters" element="tns:SET_INVOICE" />
+  </wsdl:message>
+  <wsdl:message name="SET_INVOICESoapOut">
+    <wsdl:part name="parameters" element="tns:SET_INVOICEResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_NUMBERSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_NUMBER" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_NUMBERSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_NUMBERResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_LISTSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_LIST" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_LISTSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_LISTResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_DETAILSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_DETAIL" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_DETAILSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_DETAILResponse" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_MATCH_LISTSoapIn">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_MATCH_LIST" />
+  </wsdl:message>
+  <wsdl:message name="GET_INVOICE_MATCH_LISTSoapOut">
+    <wsdl:part name="parameters" element="tns:GET_INVOICE_MATCH_LISTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendMail" />
+  </wsdl:message>
+  <wsdl:message name="SendMailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendMailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveDocument" />
+  </wsdl:message>
+  <wsdl:message name="SaveDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentLenSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocumentLen" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentLenSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocumentLenResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocument" />
+  </wsdl:message>
+  <wsdl:message name="GetDocumentSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocumentResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SALES_INVOICESSoap">
+    <wsdl:operation name="SET_INVOICE">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">FATUR TÜRLERİ (SALES_INVOICES,PURCHASE_INVOICES) RETURN ( XML YAPISI HATALI,HEADER HATALI,BU NUMARA İLE FATURA VAR (T-FATURANO),HEADER HATALI KAYIT SILINDI,HEADER HATALI KAYDA ALINMADI,FATURA EKLENDI ) </wsdl:documentation>
+      <wsdl:input message="tns:SET_INVOICESoapIn" />
+      <wsdl:output message="tns:SET_INVOICESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_NUMBER">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">INPUT: FIRMA_KODU,TASLAK_FATURA_NO || RETURN :FATURA_NO,FATURA_TARIHI,ODEME_TARIHI </wsdl:documentation>
+      <wsdl:input message="tns:GET_INVOICE_NUMBERSoapIn" />
+      <wsdl:output message="tns:GET_INVOICE_NUMBERSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_LIST">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">INPUT:  FIRMA_KODU,BAS_TARIHI (yyyy.MM.dd) ,BIT_TARIHI (yyyy.MM.dd) || RETURN :FATURA_TARIHI ,FATURA_UUID,MUSTERI_KODU </wsdl:documentation>
+      <wsdl:input message="tns:GET_INVOICE_LISTSoapIn" />
+      <wsdl:output message="tns:GET_INVOICE_LISTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_DETAIL">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> INPUT: FIRMA_KODU,ID,UUID || RETURN : FATURA_UUID,FATURA_NO,FATURA_TARIHI,FATURA_ACIKLAMASI,FATURA_KESEN_VERGI_NO,FATURA_KESEN_UNVANI, FATURA_PARA_BIRIMI,FATURA_KDV_ORANI,FATURA_KDV_HARIC_TUTAR,FATURA_KDV_DAHIL_TUTAR, FATURA_ODEME_ACIKLAMA,FATURA_ODEME_TARIHI,FATURA_HTML,MUSTERI_KODU</wsdl:documentation>
+      <wsdl:input message="tns:GET_INVOICE_DETAILSoapIn" />
+      <wsdl:output message="tns:GET_INVOICE_DETAILSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_MATCH_LIST">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">INPUT:  FIRMA_KODU,BAS_TARIHI (yyyy.MM.dd) ,BIT_TARIHI (yyyy.MM.dd) || RETURN :FATURA_TARIHI, TASLAK_FATURA_NO ,ORJINAL_FATURA_NO </wsdl:documentation>
+      <wsdl:input message="tns:GET_INVOICE_MATCH_LISTSoapIn" />
+      <wsdl:output message="tns:GET_INVOICE_MATCH_LISTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">fromAddress, toAddress, subject, body,fileList</wsdl:documentation>
+      <wsdl:input message="tns:SendMailSoapIn" />
+      <wsdl:output message="tns:SendMailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveDocument">
+      <wsdl:input message="tns:SaveDocumentSoapIn" />
+      <wsdl:output message="tns:SaveDocumentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocumentLen">
+      <wsdl:input message="tns:GetDocumentLenSoapIn" />
+      <wsdl:output message="tns:GetDocumentLenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocument">
+      <wsdl:input message="tns:GetDocumentSoapIn" />
+      <wsdl:output message="tns:GetDocumentSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SALES_INVOICESSoap" type="tns:SALES_INVOICESSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SET_INVOICE">
+      <soap:operation soapAction="http://tempuri.org/SET_INVOICE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_NUMBER">
+      <soap:operation soapAction="http://tempuri.org/GET_INVOICE_NUMBER" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_LIST">
+      <soap:operation soapAction="http://tempuri.org/GET_INVOICE_LIST" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_DETAIL">
+      <soap:operation soapAction="http://tempuri.org/GET_INVOICE_DETAIL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_MATCH_LIST">
+      <soap:operation soapAction="http://tempuri.org/GET_INVOICE_MATCH_LIST" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDocument">
+      <soap:operation soapAction="http://tempuri.org/SaveDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocumentLen">
+      <soap:operation soapAction="http://tempuri.org/GetDocumentLen" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocument">
+      <soap:operation soapAction="http://tempuri.org/GetDocument" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SALES_INVOICESSoap12" type="tns:SALES_INVOICESSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SET_INVOICE">
+      <soap12:operation soapAction="http://tempuri.org/SET_INVOICE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_NUMBER">
+      <soap12:operation soapAction="http://tempuri.org/GET_INVOICE_NUMBER" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_LIST">
+      <soap12:operation soapAction="http://tempuri.org/GET_INVOICE_LIST" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_DETAIL">
+      <soap12:operation soapAction="http://tempuri.org/GET_INVOICE_DETAIL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GET_INVOICE_MATCH_LIST">
+      <soap12:operation soapAction="http://tempuri.org/GET_INVOICE_MATCH_LIST" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendMail">
+      <soap12:operation soapAction="http://tempuri.org/SendMail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveDocument">
+      <soap12:operation soapAction="http://tempuri.org/SaveDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocumentLen">
+      <soap12:operation soapAction="http://tempuri.org/GetDocumentLen" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocument">
+      <soap12:operation soapAction="http://tempuri.org/GetDocument" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SALES_INVOICES">
+    <wsdl:port name="SALES_INVOICESSoap" binding="tns:SALES_INVOICESSoap">
+      <soap:address location="http://10.219.168.91/SALES_INVOICES.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SALES_INVOICESSoap12" binding="tns:SALES_INVOICESSoap12">
+      <soap12:address location="http://10.219.168.91/SALES_INVOICES.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
